@@ -1,27 +1,28 @@
-## simple board(CRUD) examples for React ##
+## simple board(CRUD) examples for Express + React(Redux) ##
 
-This example is web boards focusing on data input / output for easy understanding of React.
+This example is web boards focusing on data input / output for easy understanding of Express + React(Redux).
 
+node_board was created using express-generator for use as a RESTful API.
+react_board was created using create-react-app for UI.
 
-### Files ###
-- App1.js: simple list
-- App2.js: simple list
-- App3.js: formed list with Table tag and component
-- App4.js: add board (create)
-- App5.js: delete & update a Item(Row)
-- App6.js: component files
+### Branches ###
+- master: basic example
+- step2: with JWT (JSON Web Tokens)
 
 ### Other Examples ###
-- [react_board](https://github.com/gujc71/react_board): this
+- [react_board](https://github.com/gujc71/react_board): simple board(CRUD) examples for React
 - [redux_board](https://github.com/gujc71/redux_board): simple board(CRUD) examples for React + Redux
 - [react_firestore](https://github.com/gujc71/react_firestore): simple board(CRUD) examples for React(Redux) + Firestore
 - [firebaseExample](https://github.com/gujc71/firebaseExample): simple board(CRUD) examples for Node.js(express): + Firestore
 
 ### Install & Run ###
-- git clone https://github.com/gujc71/react_board.git
-- npm install
-- npm start    
-- http://localhost:3000/App1
-  ...
-  http://localhost:3000/App6
-  
+- open console (cmd)
+- git clone https://github.com/gujc71/express_react.git
+- cd exp_react
+- cd node_board & npm install
+- npm start (or nodemon ./bin/www)
+
+- open new console (cmd)
+- cd exp_react/react_board & npm install
+- npm start
+
