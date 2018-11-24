@@ -18,11 +18,10 @@ react_board was created using create-react-app for UI.
 ### Install & Run ###
 - open console (cmd)
 - git clone https://github.com/gujc71/express_react.git
-- cd exp_react
-- cd node_board & npm install
+- cd express_react/node_board & npm install
 - npm start (or nodemon ./bin/www)
 
 - open new console (cmd)
-- cd exp_react/react_board & npm install
+- cd express_react/react_board & npm install
 - npm start
 

@@ -30,7 +30,6 @@ export const express_board_remove = ( brdno = {}) => {
 
 export const express_board_save = ( data = {}) => {
     return (dispatch) => {
-        console.log(data);
         axios.post('/boards', {params: data }) 
             .then(response => dispatch(board_save(response.data)))
             .catch(err => console.log(err));

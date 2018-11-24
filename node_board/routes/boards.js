@@ -34,11 +34,10 @@ router.post('/', function(req, res, next) {
 	if (newData.brdno) {                                               // Update
 		board_data = board_data.map(row => newData.brdno === row.brdno ? {...newData }: row);
 	} else {                                                           // new : Insert
-		newData = {brddate: new Date(), brdno: maxNo++, ...newData };
+		newData = {...newData, brddate: new Date(), brdno: maxNo++ };
 		let newboards = [newData];
 		board_data = newboards.concat(board_data);
 	}    
-	console.log(newData);
 
   res.json(newData);
 });
